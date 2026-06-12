@@ -1,0 +1,16 @@
+name = "celo-paylink"
+compatibility_date = "2026-06-11"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "celo-paylink-db"
+database_id = "07478558-9773-4bbd-b225-fe4cefa60211"
+
+[vars]
+CELO_NETWORK = "celo-sepolia"
+CELO_CHAIN_ID = "11142220"
+CELO_RPC_URL = "https://forno.celo-sepolia.celo-testnet.org"
+CELO_EXPLORER_URL = "https://celo-sepolia.blockscout.com"
+USDC_ADDRESS = "0x01C5C0122039549AD1493B8220cABEdD739BC44E"
+DEFAULT_RECEIVER_ADDRESS = "0x0000000000000000000000000000000000000001"
